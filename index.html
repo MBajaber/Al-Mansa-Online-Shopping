@@ -1,0 +1,1921 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Website</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap">
+</head>
+<body>
+
+    <!-- Start Top Header  -->
+    <div class="top-header">
+        <div class="container-fluid">
+            <div class="row justify-content-between">
+                <div class="col-sm-7 col-md-5">
+                    <div class="lang-conutry d-flex align-items-center justify-content-center justify-content-md-start mb-2 mb-sm-0">
+                        <a href="#" class="language text-capitalize">english</a>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <div class="img-country">
+                                <img class="img-fluid" src="image/flag/01.png" alt="">
+                              </div>
+                              <span class="charge">الشحن إلى <strong class="charge-country">السعودية</strong></span>
+                              <ion-icon class="chevron-bottom trans" name="chevron-down-outline"></ion-icon>
+                            </a>
+                            <div class="dropdown-menu shadow text-right" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">
+                                <div class="check d-flex align-items-center">
+                                    <div class="input">
+                                        <ion-icon class="correct-circle" name="checkmark-circle"></ion-icon>
+                                    </div>
+                                    <div class="flag-img">
+                                        <img class="img-fluid" src="image/flag/01.png" alt="">
+                                    </div>
+                                    <div class="text">السعودية</div>
+                                </div>
+                              </a>
+                              <a class="dropdown-item" href="#">
+                                <div class="check d-flex align-items-center">
+                                    <div class="input">
+                                        <ion-icon class="empty-circle" name="ellipse-outline"></ion-icon>
+                                    </div>
+                                    <div class="flag-img small">
+                                        <img class="img-fluid" src="image/flag/03.png" alt="">
+                                    </div>
+                                    <div class="text">الإمارات العربية المتحدة</div>
+                                </div>
+                              </a>
+                              <a class="dropdown-item" href="#">
+                                <div class="check d-flex align-items-center">
+                                    <div class="input">
+                                        <ion-icon class="empty-circle" name="ellipse-outline"></ion-icon>
+                                    </div>
+                                    <div class="flag-img">
+                                        <img class="img-fluid" src="image/flag/02.png" alt="">
+                                    </div>
+                                    <div class="text">مصر</div>
+                                </div>
+                              </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5 col-md-7">
+                    <div class="left-side d-flex align-items-center justify-content-center justify-content-sm-end pb-2 pb-sm-0">
+                        <a class="logoin trans" href="#">تسجيل الدخول</a>
+                        <a class="signup trans" href="#">انشاء حساب</a>
+                        <a class="help trans d-none d-md-block" href="#">مساعدة</a>
+                        <a class="sell-on trans d-none d-md-block" href="#">البيع على منصة</a>
+                        <a class="distr trans d-none d-md-block" href="#">توزيع المنتجات</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Header  -->
+
+    <!-- Start Navbar For Large Screen -->
+    <nav class="my-navbar d-none d-lg-block">
+        <div class="container-fluid h-100">
+            <div class="insise-nav d-md-flex align-items-center justify-content-between h-100">
+                <button class="btn-bar d-block d-md-none">
+                    <ion-icon class="bars" name="stats-chart-outline"></ion-icon>
+                </button>
+                <a class="navbar-brand" href="#">المنصة</a>
+                <form class="form-inline form">
+                    <input class="form-control mr-sm-2" type="text" placeholder="ابحث عن..." aria-label="Search">
+                    <ion-icon class="search-icon" name="search-sharp"></ion-icon>
+                    <ion-icon class="close-icon" name="close-outline"></ion-icon>
+                </form>
+                <a class="shop d-flex align-items-center" href="shop-cart.html" target="_blank">
+                    <span class="text">عربة التسوق</span>
+                    <ion-icon class="shop-icon" name="cart-outline"></ion-icon>
+                    <span class="quantity">0</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar For Large Screen -->
+
+    <!-- Start my-small-navbar For Small Screen -->
+    <nav class="my-small-navbar d-block d-lg-none">
+        <div class="container-fluid h-100">
+            <div class="insise-nav h-100">
+                <div class="logo">
+                    <a class="navbar-brand" href="#">المنصة</a>
+                </div>
+                <div class="second-line d-flex align-items-center justify-content-between">
+                    <button class="btn-bar">
+                        <ion-icon class="bars" name="stats-chart-outline"></ion-icon>
+                    </button>
+                    <a class="shop d-flex align-items-center" href="shop-cart.html" target="_blank">
+                        <span class="text d-none d-sm-block">عربة التسوق</span>
+                        <ion-icon class="shop-icon" name="cart-outline"></ion-icon>
+                        <span class="quantity">0</span>
+                    </a>
+                </div>
+                <form class="form-inline form">
+                    <input class="form-control mr-sm-2" type="text" placeholder="ابحث عن..." aria-label="Search">
+                    <ion-icon class="search-icon" name="search-sharp"></ion-icon>
+                    <ion-icon class="close-icon" name="close-outline"></ion-icon>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End my-small-navbar For Small Screen  -->
+
+    <!-- Start Side Menu -->
+    <div class="side-menu">
+        <div class="popup-side">
+            <!-- Close Button -->
+            <div class="close-btn">
+                <ion-icon class="close-btn-icon" name="close-outline"></ion-icon>
+            </div>
+            <div class="side-box">
+                <div class="top-header d-flex align-items-center justify-content-center">
+                    <div class="image-user">
+                        <ion-icon class="user-icon" name="person-circle-outline"></ion-icon>
+                    </div>
+                    <span class="user">مرحباً. <a class="user-name" href="#">تسجيل الدخول</a></span>
+                </div>
+                <ul class="all-links list-unstyled text-right">
+                    <li class="menu-title">جميع الفئات</li>
+                    <li class="main-list trans">
+                        <a href="#" class="d-flex justify-content-between align-items-center">
+                            <span class="trans">الإلكترونيات والموبايلات</span>
+                            <ion-icon class="chevron-left trans" name="chevron-back-outline"></ion-icon>
+                        </a>
+                        <ul class="inside-ul list-unstyled">
+                            <li><a href="#" class="trans">الموبايلات</a></li>
+                            <li><a href="#" class="trans">أجهزة الكمبيوتر المحمولة</a></li>
+                            <li><a href="#" class="trans">ألعاب الفيديو</a></li>
+                            <li><a href="#" class="trans">التلفزيونات</a></li>
+                            <li><a href="#" class="trans">سماعات الرأس</a></li>
+                            <li><a href="#" class="trans">سماعات</a></li>
+                            <li><a href="#" class="trans">أجهزة منزلية</a></li>
+                            <li><a href="#" class="trans">أجهزة الصوت/الفيديو</a></li>
+                            <li><a href="#" class="trans">الساعات الذكية والإكسسوارات</a></li>
+                            <li><a href="#" class="trans">كاميرات وتصوير وفيديو</a></li>
+                            <li><a href="#" class="trans">أجهزة التابلت</a></li>
+                        </ul>
+                    </li>
+                    <li class="main-list trans">
+                        <a href="#" class="d-flex justify-content-between align-items-center">
+                            <span class="trans">الجمال والعناية الشخصية</span>
+                            <ion-icon class="chevron-left trans" name="chevron-back-outline"></ion-icon>
+                        </a>
+                        <ul class="inside-ul list-unstyled">
+                            <li><a href="#" class="trans">عطور</a></li>
+                            <li><a href="#" class="trans">مستحضرات تجميل</a></li>
+                            <li><a href="#" class="trans">العناية بالشعر</a></li>
+                            <li><a href="#" class="trans">عناية بالبشرة</a></li>
+                            <li><a href="#" class="trans">العناية الشخصية</a></li>
+                            <li><a href="#" class="trans">منتجات العناية بالرجال</a></li>
+                            <li><a href="#" class="trans">منتجات الرعاية الصحية</a></li>
+                        </ul>
+                    </li>
+                    <li class="main-list trans">
+                        <a href="#" class="d-flex justify-content-between align-items-center">
+                            <span class="trans">الأزياء</span>
+                            <ion-icon class="chevron-left trans" name="chevron-back-outline"></ion-icon>
+                        </a>
+                        <ul class="inside-ul list-unstyled">
+                            <li><a href="#" class="trans">الأزياء النسائية</a></li>
+                            <li><a href="#" class="trans">أحذية نسائية</a></li>
+                            <li><a href="#" class="trans">أزياء رجالية</a></li>
+                            <li><a href="#" class="trans">أحذية رجالية</a></li>
+                            <li><a href="#" class="trans">الساعات</a></li>
+                            <li><a href="#" class="trans">إكسسوارات الأزياء</a></li>
+                            <li><a href="#" class="trans">النظارات</a></li>
+                            <li><a href="#" class="trans">حقائب يد للنساء</a></li>
+                            <li><a href="#" class="trans">أزياء البنات</a></li>
+                            <li><a href="#" class="trans">أزياء الأولاد</a></li>
+                        </ul>
+                    </li>
+                    <li class="main-list trans">
+                        <a href="#" class="d-flex justify-content-between align-items-center">
+                            <span class="trans">المنزل والمطبخ</span>
+                            <ion-icon class="chevron-left trans" name="chevron-back-outline"></ion-icon>
+                        </a>
+                        <ul class="inside-ul list-unstyled">
+                            <li><a href="#" class="trans">مستلزمات السرير</a></li>
+                            <li><a href="#" class="trans">الحمامات</a></li>
+                            <li><a href="#" class="trans">ديكورات المنازل</a></li>
+                            <li><a href="#" class="trans">مطبخ وأدوات طعام</a></li>
+                            <li><a href="#" class="trans">أجهزة منزلية</a></li>
+                            <li><a href="#" class="trans">الأثاث</a></li>
+                            <li><a href="#" class="trans">تخزين وتنظيم منزلي</a></li>
+                            <li><a href="#" class="trans">مستلزمات الحيوانات الأليفة</a></li>
+                        </ul>
+                    </li>
+                    <li class="main-list trans">
+                        <a href="#" class="d-flex justify-content-between align-items-center">
+                            <span class="trans">الرياضة واللياقة البدنية</span>
+                            <ion-icon class="chevron-left trans" name="chevron-back-outline"></ion-icon>
+                        </a>
+                        <ul class="inside-ul list-unstyled">
+                            <li><a href="#" class="trans">تمارين الكارديو</a></li>
+                            <li><a href="#" class="trans">معدات القوة البدنية</a></li>
+                            <li><a href="#" class="trans">اليوجا</a></li>
+                            <li><a href="#" class="trans">الرياضات الجماعية</a></li>
+                            <li><a href="#" class="trans">الجري والتمرين</a></li>
+                            <li><a href="#" class="trans">الملاكمة والمصارعة</a></li>
+                            <li><a href="#" class="trans">ركوب الدراجات</a></li>
+                            <li><a href="#" class="trans">التخييم والرحلات</a></li>
+                            <li><a href="#" class="trans">السباحة والرياضات المائية</a></li>
+                            <li><a href="#" class="trans">رياضات التزلج</a></li>
+                            <li><a href="#" class="trans">عرض الكل</a></li>
+                        </ul>
+                    </li>
+                    <li class="main-list trans">
+                        <a href="#" class="d-flex justify-content-between align-items-center">
+                            <span class="trans">الألعاب</span>
+                            <ion-icon class="chevron-left trans" name="chevron-back-outline"></ion-icon>
+                        </a>
+                        <ul class="inside-ul list-unstyled">
+                            <li><a href="#" class="trans">ألعاب البناء</a></li>
+                            <li><a href="#" class="trans">الفنون والحرف</a></li>
+                            <li><a href="#" class="trans">الدُمى وإكسسواراتها</a></li>
+                            <li><a href="#" class="trans">شخصيات وتماثيل</a></li>
+                            <li><a href="#" class="trans">الرياضة والألعاب الخارجية</a></li>
+                            <li><a href="#" class="trans">الرياضة والألعاب الخارجية</a></li>
+                            <li><a href="#" class="trans">مركبات بجهاز تحكم عن بُعد</a></li>
+                            <li><a href="#" class="trans">دراجات وسكوترات وعربات</a></li>
+                            <li><a href="#" class="trans">ألعاب الأطفال</a></li>
+                            <li><a href="#" class="trans">ألعاب الطاولة</a></li>
+                        </ul>
+                    </li>
+                    <li class="main-list trans">
+                        <a href="#" class="d-flex justify-content-between align-items-center">
+                            <span class="trans">منتجات الأطفال</span>
+                            <ion-icon class="chevron-left trans" name="chevron-back-outline"></ion-icon>
+                        </a>
+                        <ul class="inside-ul list-unstyled">
+                            <li><a href="#" class="trans">عربات الأطفال وإكسسواراتها</a></li>
+                            <li><a href="#" class="trans">مقاعد السيارات</a></li>
+                            <li><a href="#" class="trans">مستلزمات الإطعام</a></li>
+                            <li><a href="#" class="trans">استحمام وعناية بالبشرة</a></li>
+                            <li><a href="#" class="trans">الحفاضات</a></li>
+                            <li><a href="#" class="trans">ملابس وأحذية الأطفال</a></li>
+                            <li><a href="#" class="trans">ألعاب الأطفال</a></li>
+                            <li><a href="#" class="trans">ملابس الحمل</a></li>
+                        </ul>
+                    </li>
+                    <li class="main-list trans">
+                        <a href="#" class="d-flex justify-content-between align-items-center">
+                            <span class="trans">المأكولات و لوازم المنزل</span>
+                            <ion-icon class="chevron-left trans" name="chevron-back-outline"></ion-icon>
+                        </a>
+                        <ul class="inside-ul list-unstyled">
+                            <li><a href="#" class="trans">أدوات كهربائية</a></li>
+                            <li><a href="#" class="trans">الأدوات اليدوية</a></li>
+                            <li><a href="#" class="trans">لمبات الإضاءة</a></li>
+                            <li><a href="#" class="trans">السلامة والأمن</a></li>
+                        </ul>
+                    </li>
+                    <li class="main-list trans">
+                        <a href="#" class="d-flex justify-content-between align-items-center">
+                            <span class="trans">مستلزمات السيارات</span>
+                            <ion-icon class="chevron-left trans" name="chevron-back-outline"></ion-icon>
+                        </a>
+                        <ul class="inside-ul list-unstyled">
+                            <li><a href="#" class="trans">إلكترونيات السيارات</a></li>
+                            <li><a href="#" class="trans">أجهزة تحديد المواقع للسيارات</a></li>
+                            <li><a href="#" class="trans">الإكسسوارات الخارجية للسيارات</a></li>
+                            <li><a href="#" class="trans">الإكسسوارات الداخلية للسيارات</a></li>
+                            <li><a href="#" class="trans">اكسسوارات الدراجات النارية</a></li>
+                            <li><a href="#" class="trans">ملابس ومعدات الدرجات النارية</a></li>
+                        </ul>
+                    </li>
+                    <li class="main-list trans">
+                        <a href="#" class="d-flex justify-content-between align-items-center">
+                            <span class="trans">الكتب</span>
+                            <ion-icon class="chevron-left trans" name="chevron-back-outline"></ion-icon>
+                        </a>
+                        <ul class="inside-ul list-unstyled">
+                            <li><a href="#" class="trans">كتب خيالية</a></li>
+                            <li><a href="#" class="trans">كتب الأطفال</a></li>
+                            <li><a href="#" class="trans">مال وأعمال</a></li>
+                            <li><a href="#" class="trans">سير ذاتية</a></li>
+                            <li><a href="#" class="trans">الجريمة والغموض</a></li>
+                            <li><a href="#" class="trans">التاريخ</a></li>
+                            <li><a href="#" class="trans">المراجع</a></li>
+                            <li><a href="#" class="trans">تطوير الذات</a></li>
+                            <li><a href="#" class="trans">كتب الطهي</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Side Menu -->
+
+    <!-- Start Navbar Middle -->
+    <div class="navbar-middle d-none d-lg-block">
+        <div class="container">
+            <div class="all-item list-unstyled d-flex align-items-center justify-content-center">
+                <div class="item">
+                    <a class="text trans" href="#">الإلكترونيات</a>
+                    <div class="inside-items one shadow text-right trans">
+                        <ul class="row list-unstyled">
+                            <li class="col-lg-2">
+                                <div class="categories pt-4">
+                                    <h5 class="header-title">الفئات</h5>
+                                    <div class="all-links">
+                                        <a class="trans" href="#">الموبايلات وملحقاتها</a>
+                                        <a class="trans" href="#">كمبيوتر و مستلزمات شبكات</a>
+                                        <a class="trans" href="#">ألعاب الفيديو</a>
+                                        <a class="trans" href="#">التلفزيونات</a>
+                                        <a class="trans" href="#">سماعات</a>
+                                        <a class="trans" href="#">سماعات الرأس و سماعات الأذن</a>
+                                        <a class="trans" href="#">باور بانك</a>
+                                        <a class="trans" href="#">إكسسوارات للارتداء</a>
+                                        <a class="trans" href="#">كاميرات وتصوير وفيديو</a>
+                                        <a class="trans" href="#">أجهزة التابلت</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-lg-4">
+                                <div class="brands pt-4">
+                                    <h3 class="header-title mr-2 mb-4">أفضل الماركات</h3>
+                                    <div class="all-brands d-flex align-items-center justify-content-between flex-wrap">
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/01.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/02.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/03.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/04.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/05.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/06.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/07.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/08.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/01.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-lg-6">
+                                <div class="image d-flex align-items-start justify-content-between">
+                                    <a class="image-one p-2" href="#">
+                                        <img class="img-fluid trans" src="image/brands/09.jpg" alt="">
+                                    </a>
+                                    <a class="image-two p-2" href="#">
+                                        <img class="img-fluid trans" src="image/brands/10.jpg" alt="">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="text trans" href="#">الأزياء</a>
+                    <div class="inside-items two shadow text-right trans">
+                        <ul class="row list-unstyled">
+                            <li class="col-lg-2">
+                                <div class="categories pt-4">
+                                    <h5 class="header-title">الفئات</h5>
+                                    <div class="all-links">
+                                        <a class="trans" href="#">الأزياء النسائية</a>
+                                        <a class="trans" href="#">أزياء رجالية</a>
+                                        <a class="trans" href="#">الأحذية</a>
+                                        <a class="trans" href="#">الساعات</a>
+                                        <a class="trans" href="#">المجوهرات</a>
+                                        <a class="trans" href="#">النظارات</a>
+                                        <a class="trans" href="#">الأمتعة والحقائب</a>
+                                        <a class="trans" href="#">الأمتعة والحقائب</a>
+                                        <a class="trans" href="#">حقائب يد للنساء</a>
+                                        <a class="trans" href="#">أزياء البنات</a>
+                                        <a class="trans" href="#">أزياء الأولاد</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-lg-4">
+                                <div class="brands pt-4">
+                                    <h3 class="header-title mr-2 mb-4">أفضل الماركات</h3>
+                                    <div class="all-brands d-flex align-items-center justify-content-between flex-wrap">
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/11.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/12.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/13.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/14.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/15.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/16.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/17.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/18.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/19.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-lg-6">
+                                <div class="image d-flex align-items-start justify-content-between">
+                                    <a class="image-one p-2" href="#">
+                                        <img class="img-fluid trans" src="image/brands/20.jpg" alt="">
+                                    </a>
+                                    <a class="image-two p-2" href="#">
+                                        <img class="img-fluid trans" src="image/brands/21.jpg" alt="">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="text" href="#">المنزل والمطبخ</a>
+                    <div class="inside-items three shadow text-right trans">
+                        <ul class="row list-unstyled">
+                            <li class="col-lg-2">
+                                <div class="categories pt-4">
+                                    <h5 class="header-title">الفئات</h5>
+                                    <div class="all-links">
+                                        <a class="trans" href="#">مستلزمات السرير</a>
+                                        <a class="trans" href="#">الحمامات</a>
+                                        <a class="trans" href="#">ديكورات المنازل</a>
+                                        <a class="trans" href="#">مطبخ وأدوات طعام</a>
+                                        <a class="trans" href="#">أجهزة منزلية</a>
+                                        <a class="trans" href="#">الأدوات وتحسين المنزل</a>
+                                        <a class="trans" href="#">الأثاث</a>
+                                        <a class="trans" href="#">تخزين وتنظيم منزلي</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-lg-4">
+                                <div class="brands pt-4">
+                                    <h3 class="header-title mr-2 mb-4">أفضل الماركات</h3>
+                                    <div class="all-brands d-flex align-items-center justify-content-between flex-wrap">
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/22.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/23.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/24.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/25.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/26.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/27.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/28.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/29.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/22.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-lg-6">
+                                <div class="image d-flex align-items-start justify-content-between">
+                                    <a class="image-one p-2" href="#">
+                                        <img class="img-fluid trans" src="image/brands/30.jpg" alt="">
+                                    </a>
+                                    <a class="image-two p-2" href="#">
+                                        <img class="img-fluid trans" src="image/brands/31.jpg" alt="">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="text trans" href="#">الجمال والعطور</a>
+                    <div class="inside-items four shadow text-right trans">
+                        <ul class="row list-unstyled">
+                            <li class="col-lg-2">
+                                <div class="categories pt-4">
+                                    <h5 class="header-title">الفئات</h5>
+                                    <div class="all-links">
+                                        <a class="trans" href="#">عطور</a>
+                                        <a class="trans" href="#">مستحضرات تجميل</a>
+                                        <a class="trans" href="#">العناية بالشعر</a>
+                                        <a class="trans" href="#">عناية بالبشرة</a>
+                                        <a class="trans" href="#">العناية الشخصية</a>
+                                        <a class="trans" href="#">الأدوات والإكسسوارات</a>
+                                        <a class="trans" href="#">منتجات الرعاية الصحية</a>
+                                        <a class="trans" href="#">منتجات العناية بالرجال</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-lg-4">
+                                <div class="brands pt-4">
+                                    <h3 class="header-title mr-2 mb-4">أفضل الماركات</h3>
+                                    <div class="all-brands d-flex align-items-center justify-content-between flex-wrap">
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/32.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/33.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/34.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/35.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/36.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/37.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/38.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/39.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/40.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-lg-6">
+                                <div class="image d-flex align-items-start justify-content-between">
+                                    <a class="image-one p-2" href="#">
+                                        <img class="img-fluid trans" src="image/brands/41.png" alt="">
+                                    </a>
+                                    <a class="image-two p-2" href="#">
+                                        <img class="img-fluid trans" src="image/brands/42.png" alt="">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="text trans" href="#">المواليد و الألعاب</a>
+                    <div class="inside-items five shadow text-right trans">
+                        <ul class="row list-unstyled">
+                            <li class="col-lg-2">
+                                <div class="categories pt-4">
+                                    <h5 class="header-title">الفئات</h5>
+                                    <div class="all-links">
+                                        <a class="trans" href="#">ألعاب الأطفال</a>
+                                        <a class="trans" href="#">منتجات تنقل الأطفال</a>
+                                        <a class="trans" href="#">مستلزمات الإطعام</a>
+                                        <a class="trans" href="#">استحمام وعناية بالبشرة</a>
+                                        <a class="trans" href="#">الحفاضات</a>
+                                        <a class="trans" href="#">ملابس وأحذية الأطفال</a>
+                                        <a class="trans" href="#">ألعاب البيبي</a>
+                                        <a class="trans" href="#">الأبوة والأمومة</a>
+                                        <a class="trans" href="#">أزياء الأطفال</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-lg-4">
+                                <div class="brands pt-4">
+                                    <h3 class="header-title mr-2 mb-4">أفضل الماركات</h3>
+                                    <div class="all-brands d-flex align-items-center justify-content-between flex-wrap">
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/43.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/44.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/45.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/46.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/47.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/48.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/49.jpg" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/50.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/51.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-lg-6">
+                                <div class="image d-flex align-items-start justify-content-between">
+                                    <a class="image-one p-2" href="#">
+                                        <img class="img-fluid trans" src="image/brands/52.jpg" alt="">
+                                    </a>
+                                    <a class="image-two p-2" href="#">
+                                        <img class="img-fluid trans" src="image/brands/53.jpg" alt="">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="text trans" href="#">الرياضة والأنشطة الخارجية</a>
+                    <div class="inside-items six shadow text-right trans">
+                        <ul class="row list-unstyled">
+                            <li class="col-lg-2">
+                                <div class="categories pt-4">
+                                    <h5 class="header-title">الفئات</h5>
+                                    <div class="all-links">
+                                        <a class="trans" href="#">تمارين القوة</a>
+                                        <a class="trans" href="#">الجري</a>
+                                        <a class="trans" href="#">التخييم والرحلات</a>
+                                        <a class="trans" href="#">تمارين الكارديو </a>
+                                        <a class="trans" href="#">اليوغا </a>
+                                        <a class="trans" href="#">الدراجات</a>
+                                        <a class="trans" href="#">الرياضات المائية</a>
+                                        <a class="trans" href="#">رياضات المضرب</a>
+                                        <a class="trans" href="#">سكوترات وأكسسوراتها</a>
+                                        <a class="trans" href="#">أكسسورات التمارين </a>
+                                        <a class="trans" href="#">منتجات الرعاية الصحية</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-lg-4">
+                                <div class="brands pt-4">
+                                    <h3 class="header-title mr-2 mb-4">أفضل الماركات</h3>
+                                    <div class="all-brands d-flex align-items-center justify-content-between flex-wrap">
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/54.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/55.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/56.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/57.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/58.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/59.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/60.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/61.png" alt="">
+                                        </a>
+                                        <a class="img-item shadow rounded" href="#">
+                                            <img class="img-fluid trans" src="image/brands/62.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-lg-6">
+                                <div class="image d-flex align-items-start justify-content-between">
+                                    <a class="image-one p-2" href="#">
+                                        <img class="img-fluid trans" src="image/brands/63.png" alt="">
+                                    </a>
+                                    <a class="image-two p-2" href="#">
+                                        <img class="img-fluid trans" src="image/brands/64.png" alt="">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Navbar Middle -->
+
+    <!-- Start My Slider  -->
+    <div class="slider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <a class="carousel-item active" href="#">
+                <img class="d-block w-100" src="image/slider/07.jpg" alt="First slide">
+              </a>
+              <a class="carousel-item" href="#">
+                <img class="d-block w-100" src="image/slider/08.jpg" alt="Second slide">
+              </a>
+              <a class="carousel-item" href="#">
+                <img class="d-block w-100" src="image/slider/09.jpg" alt="Third slide">
+              </a>
+              <a class="carousel-item" href="#">
+                <img class="d-block w-100" src="image/slider/10.jpg" alt="Third slide">
+              </a>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              </ol>
+          </div>
+    </div>
+    <!-- End My Slider  -->
+
+    <!-- Start Discount  -->
+    <div class="discount text-center">
+        <div class="container-fluid">
+            <div class="discount-box mb-2">
+                <div class="row ">
+                    <div class="col-lg-7">
+                        <div class="big-titles d-flex align-items-center justify-content-center justify-content-lg-end mb-4">
+                            <h2 class="h2 header">عروض سريعة بخصم حتى 80% <span>ينتهي في</span></h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="count d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                            <div class="box days rounded">
+                                <span class="name">يوم</span>
+                                <div class="count-day" id="day">00</div>
+                            </div>
+                            <div class="dot d-none d-sm-block">:</div>
+                            <div class="box hours rounded">
+                                <span class="name">ساعه</span>
+                                <div class="count-hour" id="hour">00</div>
+                            </div>
+                            <div class="dot d-none d-sm-block">:</div>
+                            <div class="box minutes rounded">
+                                <span class="name">دقيقة</span>
+                                <div class="count-minutes" id="minute">00</div>
+                            </div>
+                            <div class="dot d-none d-sm-block">:</div>
+                            <div class="box seconds rounded">
+                                <span class="name">ثانية</span>
+                                <div class="count-seconds" id="second">00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="items-box">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg">
+                        <a class="item" href="page-item.html" target="_blank">
+                            <div class="img">
+                                <img class="img-fluid" src="image/offers/01.jpg" alt="">
+                                <span class="disc">50%</span>
+                            </div>
+                            <div class="cost mt-1 text-center">
+                                <span class="main-cost"><srong>169.00</srong> رس</span>
+                                <span class="old-cost">84.00</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg">
+                        <a class="item" href="#">
+                            <div class="img">
+                                <img class="img-fluid" src="image/offers/02.jpg" alt="">
+                                <span class="disc">36%</span>
+                            </div>
+                            <div class="cost mt-1 text-center">
+                                <span class="main-cost"><srong>39.99</srong> رس</span>
+                                <span class="old-cost">30.00</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg">
+                        <a class="item" href="#">
+                            <div class="img">
+                                <img class="img-fluid" src="image/offers/03.jpg" alt="">
+                                <span class="disc">65%</span>
+                            </div>
+                            <div class="cost mt-1 text-center">
+                                <span class="main-cost"><srong>39.99</srong> رس</span>
+                                <span class="old-cost">99.99</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg">
+                        <a class="item" href="#">
+                            <div class="img">
+                                <img class="img-fluid" src="image/offers/04.jpg" alt="">
+                                <span class="disc">15%</span>
+                            </div>
+                            <div class="cost mt-1 text-center">
+                                <span class="main-cost"><srong>39.99</srong> رس</span>
+                                <span class="old-cost">35.00</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg">
+                        <a class="item" href="#">
+                            <div class="img">
+                                <img class="img-fluid" src="image/offers/05.jpg" alt="">
+                                <span class="disc">80%</span>
+                            </div>
+                            <div class="cost mt-1 text-center">
+                                <span class="main-cost"><srong>39.99</srong> رس</span>
+                                <span class="old-cost">150.00</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Discount  -->
+
+    <!-- Start Product Items -->
+    <div class="product-item text-right">
+        <div class="container-fluid">
+            <h2 class="h1 header-title text-center">الأثاث</h2>
+            <div class="owl-carousel owl-theme mt-5">
+                <a class="item" href="#">
+                    <div class="image">
+                        <img src="image/furniture/01.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="info">
+                        <div class="desc">
+                            <span class="name">كرسي منضدة قابل للتعديل أسود 90x45x38سنتيمتر </span>
+                        </div>
+                        <div class="bttom-card d-flex justify-content-between">
+                            <div class="cost-parent">
+                                <span class="cost"><strong>280</strong> رس</span>
+                                <span class="old-cost">320.00</span>
+                            </div>
+                            <div class="add-to-card">
+                                <button type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                    <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="item" href="#">
+                    <div class="image">
+                        <img src="image/furniture/02.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="info">
+                        <div class="desc">
+                            <span class="name">كانغارو طاولة دائرية 4B من الخيزران بني </span>
+                        </div>
+                        <div class="bttom-card d-flex justify-content-between">
+                            <div class="cost-parent">
+                                <span class="cost"><strong>189.00</strong> رس</span>
+                                <span class="old-cost">210.00</span>
+                            </div>
+                            <div class="add-to-card">
+                                <button type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                    <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="item" href="#">
+                    <div class="image">
+                        <img src="image/furniture/03.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="info">
+                        <div class="desc">
+                            <span class="name">مون بطانية سرير ناعمة من الفلانيل فلانيل بني King </span>
+                        </div>
+                        <div class="bttom-card d-flex justify-content-between">
+                            <div class="cost-parent">
+                                <span class="cost"><strong>50.00</strong> رس</span>
+                                <span class="old-cost">80.00</span>
+                            </div>
+                            <div class="add-to-card">
+                                <button type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                    <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="item" href="#">
+                    <div class="image">
+                        <img src="image/furniture/05.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="info">
+                        <div class="desc">
+                            <span class="name">ارستيد غطاء مصباح طاولة فضي/أبيض </span>
+                        </div>
+                        <div class="bttom-card d-flex justify-content-between">
+                            <div class="cost-parent">
+                                <span class="cost"><strong>104.99</strong> رس</span>
+                                <span class="old-cost">270.00</span>
+                            </div>
+                            <div class="add-to-card">
+                                <button type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                    <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="item" href="#">
+                    <div class="image">
+                        <img src="image/furniture/06.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="info">
+                        <div class="desc">
+                            <span class="name">سوفا سكين غطاء أريكة بثلاثة مقاعد بومباس تركوازي </span>
+                        </div>
+                        <div class="bttom-card d-flex justify-content-between">
+                            <div class="cost-parent">
+                                <span class="cost"><strong>265.55</strong> رس</span>
+                                <span class="old-cost">309.99</span>
+                            </div>
+                            <div class="add-to-card">
+                                <button type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                    <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="item" href="#">
+                    <div class="image">
+                        <img src="image/furniture/07.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="info">
+                        <div class="desc">
+                            <span class="name">هوم بوكس مصباح طاولة أنت أرك فضي 53سنتيمتر </span>
+                        </div>
+                        <div class="bttom-card d-flex justify-content-between">
+                            <div class="cost-parent">
+                                <span class="cost"><strong>109.00</strong> رس</span>
+                                <span class="old-cost">130.00</span>
+                            </div>
+                            <div class="add-to-card">
+                                <button type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                    <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="item" href="#">
+                    <div class="image">
+                        <img src="image/furniture/08.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="info">
+                        <div class="desc">
+                            <span class="name">سوفا سكين غطاء أريكة بومبا بمقعدين بيج </span>
+                        </div>
+                        <div class="bttom-card d-flex justify-content-between">
+                            <div class="cost-parent">
+                                <span class="cost"><strong>249.00</strong> رس</span>
+                                <span class="old-cost">260.00</span>
+                            </div>
+                            <div class="add-to-card">
+                                <button type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                    <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End Product Items -->
+
+    <!-- Start Section  -->
+    <div class="sections mt-5">
+        <div class="container-fluid">
+            <div class="all-section">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="section">
+                            <a href="#" class="image d-block">
+                                <img src="image/slider/14.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>    
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="section">
+                            <a href="#" class="image d-block">
+                                <img src="image/slider/15.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>    
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="section">
+                            <a href="#" class="image d-block">
+                                <img src="image/slider/16.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>    
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="section">
+                            <a href="#" class="image d-block">
+                                <img src="image/slider/17.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>    
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="section">
+                            <a href="#" class="image d-block">
+                                <img src="image/slider/18.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>    
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="section">
+                            <a href="#" class="image d-block">
+                                <img src="image/slider/19.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Section  -->
+
+    <!-- Start More Items -->
+    <div class="more-items text-right mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="first-column">
+                        <h2 class="h1 header mb-4 text-center">الجديد</h2>
+                        <a class="items d-flex align-items-center justify-content-center mb-4" href="#">
+                            <div class="image d-flex align-items-center justify-content-center ml-3">
+                                <img src="image/items/01.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6 class="header-title">سوني PlayStation 4 Slim 1TB Console - Jet Black</h6>
+                                <span class="cost"><strong>999</strong> رس</span>
+                                <span class="old-cost">1050.00</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="items d-flex align-items-center justify-content-center mb-4" href="#">
+                            <div class="image d-flex align-items-center justify-content-center ml-3">
+                                <img src="image/items/02.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6 class="header-title">كارين ساعة يد بعقارب مقاومة للماء وبسوار من الإستانلس… </h6>
+                                <span class="cost"><strong>51.65</strong> رس</span>
+                                <span class="old-cost">115</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="items d-flex align-items-center justify-content-center mb-4" href="#">
+                            <div class="image d-flex align-items-center justify-content-center ml-3">
+                                <img src="image/items/03.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6 class="header-title">SYT نظارة شمسية آفياتور بعدسات واقية من الأشعة فوق… </h6>
+                                <span class="cost"><strong>17.00</strong> رس</span>
+                                <span class="old-cost">29.00</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="items d-flex align-items-center justify-content-center mb-4" href="#">
+                            <div class="image d-flex align-items-center justify-content-center ml-3">
+                                <img src="image/items/04.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6 class="header-title">كانون كاميرا رقميّة بعدسة أحادية عاكسة EOS 4000D</h6>
+                                <span class="cost"><strong>1499.99</strong> رس</span>
+                                <span class="old-cost">1720</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="items d-flex align-items-center justify-content-center mb-4" href="#">
+                            <div class="image d-flex align-items-center justify-content-center ml-3">
+                                <img src="image/items/05.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6 class="header-title">إيست من نون تلفاز LED بدقة كاملة الوضوح مقاس 49 بوصة… </h6>
+                                <span class="cost"><strong>100.00</strong> رس</span>
+                                <span class="old-cost">140</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="items d-flex align-items-center justify-content-center mb-4" href="#">
+                            <div class="image d-flex align-items-center justify-content-center ml-3">
+                                <img src="image/items/06.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6 class="header-title">إيست من نون تلفاز LED بدقة كاملة الوضوح مقاس 49 بوصة… </h6>
+                                <span class="cost"><strong>379.00</strong> رس</span>
+                                <span class="old-cost">650</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="second-column">
+                        <h2 class="h1 header mb-4 text-center">وصل حديثا</h2>
+                        <a class="items d-flex align-items-center justify-content-center mb-4" href="#">
+                            <div class="image d-flex align-items-center justify-content-center ml-3">
+                                <img src="image/items/07.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6 class="header-title">سوني PlayStation 4 Slim 1TB Console - Jet Black</h6>
+                                <span class="cost"><strong>999</strong> رس</span>
+                                <span class="old-cost">1050.00</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="items d-flex align-items-center justify-content-center mb-4" href="#">
+                            <div class="image d-flex align-items-center justify-content-center ml-3">
+                                <img src="image/items/08.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6 class="header-title">كارين ساعة يد بعقارب مقاومة للماء وبسوار من الإستانلس… </h6>
+                                <span class="cost"><strong>51.65</strong> رس</span>
+                                <span class="old-cost">115</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="items d-flex align-items-center justify-content-center mb-4" href="#">
+                            <div class="image d-flex align-items-center justify-content-center ml-3">
+                                <img src="image/items/09.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6 class="header-title">SYT نظارة شمسية آفياتور بعدسات واقية من الأشعة فوق… </h6>
+                                <span class="cost"><strong>17.00</strong> رس</span>
+                                <span class="old-cost">29.00</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="items d-flex align-items-center justify-content-center mb-4" href="#">
+                            <div class="image d-flex align-items-center justify-content-center ml-3">
+                                <img src="image/items/10.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6 class="header-title">كانون كاميرا رقميّة بعدسة أحادية عاكسة EOS 4000D</h6>
+                                <span class="cost"><strong>1499.99</strong> رس</span>
+                                <span class="old-cost">1720</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="items d-flex align-items-center justify-content-center mb-4" href="#">
+                            <div class="image d-flex align-items-center justify-content-center ml-3">
+                                <img src="image/items/11.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6 class="header-title">إيست من نون تلفاز LED بدقة كاملة الوضوح مقاس 49 بوصة… </h6>
+                                <span class="cost"><strong>100.00</strong> رس</span>
+                                <span class="old-cost">140</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="items d-flex align-items-center justify-content-center mb-4" href="#">
+                            <div class="image d-flex align-items-center justify-content-center ml-3">
+                                <img src="image/items/12.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6 class="header-title">إيست من نون تلفاز LED بدقة كاملة الوضوح مقاس 49 بوصة… </h6>
+                                <span class="cost"><strong>379.00</strong> رس</span>
+                                <span class="old-cost">650</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="third-column">
+                        <h2 class="h1 header mb-4 text-center">اكثر مبيعا</h2>
+                        <a class="items d-flex align-items-center justify-content-center mb-4" href="#">
+                            <div class="image d-flex align-items-center justify-content-center ml-3">
+                                <img src="image/items/13.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6 class="header-title">سوني PlayStation 4 Slim 1TB Console - Jet Black</h6>
+                                <span class="cost"><strong>999</strong> رس</span>
+                                <span class="old-cost">1050.00</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="items d-flex align-items-center justify-content-center mb-4" href="#">
+                            <div class="image d-flex align-items-center justify-content-center ml-3">
+                                <img src="image/items/14.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6 class="header-title">كارين ساعة يد بعقارب مقاومة للماء وبسوار من الإستانلس… </h6>
+                                <span class="cost"><strong>51.65</strong> رس</span>
+                                <span class="old-cost">115</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="items d-flex align-items-center justify-content-center mb-4" href="#">
+                            <div class="image d-flex align-items-center justify-content-center ml-3">
+                                <img src="image/items/15.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6 class="header-title">SYT نظارة شمسية آفياتور بعدسات واقية من الأشعة فوق… </h6>
+                                <span class="cost"><strong>17.00</strong> رس</span>
+                                <span class="old-cost">29.00</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="items d-flex align-items-center justify-content-center mb-4" href="#">
+                            <div class="image d-flex align-items-center justify-content-center ml-3">
+                                <img src="image/items/16.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6 class="header-title">كانون كاميرا رقميّة بعدسة أحادية عاكسة EOS 4000D</h6>
+                                <span class="cost"><strong>1499.99</strong> رس</span>
+                                <span class="old-cost">1720</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="items d-flex align-items-center justify-content-center mb-4" href="#">
+                            <div class="image d-flex align-items-center justify-content-center ml-3">
+                                <img src="image/items/17.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6 class="header-title">إيست من نون تلفاز LED بدقة كاملة الوضوح مقاس 49 بوصة… </h6>
+                                <span class="cost"><strong>100.00</strong> رس</span>
+                                <span class="old-cost">140</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="items d-flex align-items-center justify-content-center mb-4" href="#">
+                            <div class="image d-flex align-items-center justify-content-center ml-3">
+                                <img src="image/items/18.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6 class="header-title">إيست من نون تلفاز LED بدقة كاملة الوضوح مقاس 49 بوصة… </h6>
+                                <span class="cost"><strong>379.00</strong> رس</span>
+                                <span class="old-cost">650</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End More Items -->
+
+    <!-- Start Elect Sections  -->
+    <div class="elect text-right mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="right-side">
+                        <a href="#" class="right d-block">
+                            <div class="image">
+                                <img src="image/items/23.jpg" alt="" class="img-fluid trans">
+                            </div>
+                            <div class="text mt-2">
+                                <h2 class="h1 text-center text-lg-right mb-4 mb-lg-0">متجر للالكترونيات</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="left-side d-flex align-items-center justify-content-between flex-wrap">
+                        <a href="#" class="section d-flex align-items-center justify-content-center flex-wrap trans">
+                            <div class="text">
+                                <h5 class="text-center">العاب إلكترونية</h5>
+                            </div>
+                            <div class="image">
+                                <img src="image/items/01.png" alt="" class="img-fluid trans">
+                            </div>
+                        </a>
+                        <a href="#" class="section d-flex align-items-center justify-content-center flex-wrap trans">
+                            <div class="text">
+                                <h5 class="text-center">لابتوبات والاكسسوارات</h5>
+                            </div>
+                            <div class="image">
+                                <img src="image/items/18.png" alt="" class="img-fluid trans">
+                            </div>
+                        </a>
+                        <a href="#" class="section d-flex align-items-center justify-content-center flex-wrap trans">
+                            <div class="text">
+                                <h5 class="text-center">كاميرات</h5>
+                            </div>
+                            <div class="image">
+                                <img src="image/items/04.png" alt="" class="img-fluid trans">
+                            </div>
+                        </a>
+                        <a href="#" class="section d-flex align-items-center justify-content-center flex-wrap trans">
+                            <div class="text">
+                                <h5 class="text-center">التلفزيونات</h5>
+                            </div>
+                            <div class="image">
+                                <img src="image/items/24.png" alt="" class="img-fluid trans">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Elect Sections  -->
+
+    <!-- Start Top Deals In Electronics -->
+    <div class="top-deals mt-5">
+        <div class="container-fluid">
+            <div class="all-items">
+                <div class="top-div d-flex flex-wrap align-items-center justify-content-center justify-content-sm-between mb-4">
+                    <h3>الأكثر مبيعا في الإلكترونيات</h3>
+                    <a href="#" class="view-more">عرض الكل</a>
+                </div>
+                <div class="row flex-wrap">
+                    <div class="col-sm-4 col-md-3 col-lg-2">
+                        <a href="#" class="d-block mx-auto item text-center text-sm-right mb-5">
+                            <div class="image d-flex align-items-center justify-content-center">
+                                <img class="img-fluid" src="image/items/19.png" alt="">
+                            </div>
+                            <div class="bottom-item">
+                                <span class="title-header d-flex text-right mb-2">آنكر باور بانك محمول 10000 مللي أمبير / ساعة… </span>
+                                <span class="cost"><strong>379.00</strong> رس</span>
+                                <span class="old-cost">650</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-2">
+                        <a href="#" class="d-block mx-auto item text-center text-sm-right mb-5">
+                            <div class="image d-flex align-items-center justify-content-center">
+                                <img class="img-fluid" src="image/items/20.png" alt="">
+                            </div>
+                            <div class="bottom-item">
+                                <span class="title-header d-flex text-right mb-2">أبل مستعمل ومجدد - آي باد ميني أسود اللون بشاشة 7.9… </span>
+                                <span class="cost"><strong>836.00</strong> رس</span>
+                                <span class="old-cost">920.00</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-2">
+                        <a href="#" class="d-block mx-auto item text-center text-sm-right mb-5">
+                            <div class="image d-flex align-items-center justify-content-center">
+                                <img class="img-fluid" src="image/items/21.png" alt="">
+                            </div>
+                            <div class="bottom-item">
+                                <span class="title-header d-flex text-right mb-2">شاومي سوار ذكي مي باند 5 إصدار قياسي (نسخة عالمية)… </span>
+                                <span class="cost"><strong>165.00</strong> رس</span>
+                                <span class="old-cost">210</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-2">
+                        <a href="#" class="d-block mx-auto item text-center text-sm-right mb-5">
+                            <div class="image d-flex align-items-center justify-content-center">
+                                <img class="img-fluid" src="image/items/22.png" alt="">
+                            </div>
+                            <div class="bottom-item">
+                                <span class="title-header d-flex text-right mb-2">آنكر باور بانك محمول 10000 مللي أمبير / ساعة… </span>
+                                <span class="cost"><strong>379.00</strong> رس</span>
+                                <span class="old-cost">650</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-2">
+                        <a href="#" class="d-block mx-auto item text-center text-sm-right mb-5">
+                            <div class="image d-flex align-items-center justify-content-center">
+                                <img class="img-fluid" src="image/items/01.png" alt="">
+                            </div>
+                            <div class="bottom-item">
+                                <span class="title-header d-flex text-right mb-2">سوني DualShock 4 Wireless Controller For PlayStation 4… </span>
+                                <span class="cost"><strong>179.68</strong> رس</span>
+                                <span class="old-cost">200</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-2">
+                        <a href="#" class="d-block mx-auto item text-center text-sm-right mb-5">
+                            <div class="image d-flex align-items-center justify-content-center">
+                                <img class="img-fluid" src="image/items/25.png" alt="">
+                            </div>
+                            <div class="bottom-item">
+                                <span class="title-header d-flex text-right mb-2">سوني سماعة بلاي ستيشن لاسلكية بلون ذهبي أسود </span>
+                                <span class="cost"><strong>364.00</strong> رس</span>
+                                <span class="old-cost">549.96</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Deals In Electronics -->
+
+    <!-- Start Perfume Sections  -->
+    <div class="perfume text-right mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="right-side">
+                        <a href="#" class="right d-block">
+                            <div class="image">
+                                <img src="image/items/26.jpg" alt="" class="img-fluid trans">
+                            </div>
+                            <div class="text mt-2">
+                                <h2 class="h1 text-center text-lg-right mb-4 mb-lg-0">متجر للعطور</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="left-side d-flex align-items-center justify-content-between flex-wrap">
+                        <a href="#" class="section d-flex align-items-center justify-content-center flex-wrap trans">
+                            <div class="text">
+                                <h5 class="text-center">العطور النسائية</h5>
+                            </div>
+                            <div class="image">
+                                <img src="image/items/27.png" alt="" class="img-fluid trans">
+                            </div>
+                        </a>
+                        <a href="#" class="section d-flex align-items-center justify-content-center flex-wrap trans">
+                            <div class="text">
+                                <h5 class="text-center">العطور الرجالية</h5>
+                            </div>
+                            <div class="image">
+                                <img src="image/items/28.png" alt="" class="img-fluid trans">
+                            </div>
+                        </a>
+                        <a href="#" class="section d-flex align-items-center justify-content-center flex-wrap trans">
+                            <div class="text">
+                                <h5 class="text-center">مسك والعود</h5>
+                            </div>
+                            <div class="image">
+                                <img src="image/items/29.png" alt="" class="img-fluid trans">
+                            </div>
+                        </a>
+                        <a href="#" class="section d-flex align-items-center justify-content-center flex-wrap trans">
+                            <div class="text">
+                                <h5 class="text-center">عطور للبيت</h5>
+                            </div>
+                            <div class="image">
+                                <img src="image/items/30.png" alt="" class="img-fluid trans">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Perfume Sections  -->
+
+    <!-- Start Top Deals In Perfume -->
+    <div class="top-deals-perfume mt-5">
+        <div class="container-fluid">
+            <div class="all-items">
+                <div class="top-div d-flex flex-wrap align-items-center justify-content-center justify-content-sm-between mb-4">
+                    <h3>الأكثر مبيعا في العطور</h3>
+                    <a href="#" class="view-more">عرض الكل</a>
+                </div>
+                <div class="row flex-wrap">
+                    <div class="col-sm-4 col-md-3 col-lg-2">
+                        <a href="#" class="d-block mx-auto item text-center text-sm-right mb-5">
+                            <div class="image d-flex align-items-center justify-content-center">
+                                <img class="img-fluid" src="image/items/27.png" alt="">
+                            </div>
+                            <div class="bottom-item">
+                                <span class="title-header d-flex text-right mb-2">نيكوس عطر سكلبتشر هوم 100مل</span>
+                                <span class="cost"><strong>379.00</strong> رس</span>
+                                <span class="old-cost">650</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-2">
+                        <a href="#" class="d-block mx-auto item text-center text-sm-right mb-5">
+                            <div class="image d-flex align-items-center justify-content-center">
+                                <img class="img-fluid" src="image/items/28.png" alt="">
+                            </div>
+                            <div class="bottom-item">
+                                <span class="title-header d-flex text-right mb-2">جس عطر سيدكتف أوم عطر 100مل </span>
+                                <span class="cost"><strong>836.00</strong> رس</span>
+                                <span class="old-cost">920.00</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-2">
+                        <a href="#" class="d-block mx-auto item text-center text-sm-right mb-5">
+                            <div class="image d-flex align-items-center justify-content-center">
+                                <img class="img-fluid" src="image/items/29.png" alt="">
+                            </div>
+                            <div class="bottom-item">
+                                <span class="title-header d-flex text-right mb-2">العربية للعود عود مسك الطهارة 3مل</span>
+                                <span class="cost"><strong>165.00</strong> رس</span>
+                                <span class="old-cost">210</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-2">
+                        <a href="#" class="d-block mx-auto item text-center text-sm-right mb-5">
+                            <div class="image d-flex align-items-center justify-content-center">
+                                <img class="img-fluid" src="image/items/31.png" alt="">
+                            </div>
+                            <div class="bottom-item">
+                                <span class="title-header d-flex text-right mb-2">دافيدوف عطر إيو دي تواليت سيلفر شادو 100مل</span>
+                                <span class="cost"><strong>379.00</strong> رس</span>
+                                <span class="old-cost">650</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-2">
+                        <a href="#" class="d-block mx-auto item text-center text-sm-right mb-5">
+                            <div class="image d-flex align-items-center justify-content-center">
+                                <img class="img-fluid" src="image/items/32.png" alt="">
+                            </div>
+                            <div class="bottom-item">
+                                <span class="title-header d-flex text-right mb-2">روبرتو كافالي ماء عطر باراديسو أزورو 75مل</span>
+                                <span class="cost"><strong>179.68</strong> رس</span>
+                                <span class="old-cost">200</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-2">
+                        <a href="#" class="d-block mx-auto item text-center text-sm-right mb-5">
+                            <div class="image d-flex align-items-center justify-content-center">
+                                <img class="img-fluid" src="image/items/33.png" alt="">
+                            </div>
+                            <div class="bottom-item">
+                                <span class="title-header d-flex text-right mb-2">روبرتو كافالي ماء عطر نيرو أسولوتو 75مل</span>
+                                <span class="cost"><strong>364.00</strong> رس</span>
+                                <span class="old-cost">549.96</span>
+                                <div class="footer mt-2 d-flex align-items-center justify-content-between">
+                                    <button class="buy trans rounded">شراء الان</button>
+                                    <button class="heart-parent" type="button" data-toggle="tooltip" data-placement="bottom" title="اضف الى السلة">
+                                        <ion-icon class="heart trans" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Deals In Perfume -->
+
+    <!-- Start Download App  -->
+    <div class="download">
+        <div class="container-fluid h-100">
+            <div class="download-parent d-flex align-items-center justify-content-center h-100">
+                <div class="app d-flex align-items-center justify-content-center flex-wrap">
+                    <div class="phone mb-3">
+                        <img src="image/items/34.png" alt="" class="img-fluid trans">
+                    </div>
+                    <div class="text">
+                        <h2 class="text-center mb-3">حمله الان</h2>
+                        <div class="button d-flex align-items-center justify-content-between">
+                            <a href="#" class="google-play">
+                                <img src="image/items/35.png" alt="" class="img-fluid">
+                            </a>
+                            <a href="#" class="app-store">
+                                <img src="image/items/36.png" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Download App  -->
+
+    <!-- Start Subscribe  -->
+    <div class="subscribe mt-2 text-right">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="subscibe-div">
+                        <span class="title d-block text-center text-lg-right">سجل لتصلك عروضنا الحصرية وا لجديدة :</span>
+                        <form action="" class="form form-inline">
+                            <input type="text" class="form-control" placeholder="أدخل عنوان بريدك الإلكتروني">
+                            <a class="btn btn-sign" href="#">تسجيل</a>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="social">
+                        <span class="title d-block text-center mt-3 mt-lg-0">الانضمام إلى :</span>
+                        <ul class="all-social list-unstyled d-flex align-items-center justify-content-center">
+                            <li>
+                                <a href="#" >
+                                    <ion-icon class="face trans" name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" >
+                                    <ion-icon class="insta trans" name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" >
+                                    <ion-icon class="twitter trans" name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" >
+                                    <ion-icon class="youtube trans" name="logo-youtube"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" >
+                                    <ion-icon class="snap trans" name="logo-snapchat"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!-- End Subscribe -->
+
+    <!-- Start Image Pay  -->
+    <div class="container-fluid">
+        <div class="pay d-flex align-items-center justify-content-center flex-wrap">
+            <img src="image/pay/01.png" alt="" class="img-fluid">
+            <img src="image/pay/02.png" alt="" class="img-fluid">
+            <img src="image/pay/03.png" alt="" class="img-fluid">
+            <img src="image/pay/04.png" alt="" class="img-fluid">
+            <img src="image/pay/05.png" alt="" class="img-fluid">
+            <img src="image/pay/06.png" alt="" class="img-fluid">
+        </div>
+    </div>
+    <!-- End Image Pay  -->
+
+    <!-- Start Footer  -->
+    <footer>
+        <div class="container-fluid p-4">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <p class="text-center text-lg-right mb-3 mb-lg-0">جميع الحقوق محفوظة المنصة 2020 &copy;</p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="all-links d-flex align-items-center justify-content-center justify-content-lg-end flex-wrap">
+                        <a href="#">فرص التوظيف</a>
+                        <a href="#">سياسة الضمان</a>
+                        <a href="#">البيع معنا</a>
+                        <a href="#">شروط الاستخدام</a>
+                        <a href="#">شروط البيع</a>
+                        <a href="#">شروط البيع</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer  -->
+
+    <!-- Start Click On Register and logoin-->
+    <div class="popup-rigister">
+        <div class="window-box rounded">
+            <div class="close-regi">
+                <ion-icon class="close-regi-login" name="close-outline"></ion-icon>
+            </div>
+            <div class="head d-flex align-items-center justify-content-center">
+                <a href="#" id="register" class="register trans">Register</a>
+                <a href="#" id="logoin" class="logoin trans select">Login</a>
+            </div>
+            <div class="bottom">
+                <form class="login-form trans open" action="">
+                    <div class="email div-parent d-flex align-items-center mb-3">
+                        <input type="text" placeholder="ادخل الأيميل">
+                        <ion-icon class="icon" name="mail-outline"></ion-icon>
+                    </div>
+                    <div class="password div-parent d-flex align-items-center mb-3">
+                        <input type="password" placeholder="ادخل رقم السري">
+                        <ion-icon class="icon" name="lock-closed-outline"></ion-icon>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <input class="check" type="checkbox">
+                        <span class="remeber-me">تذكرني</span>
+                    </div>
+                    <div class="submit d-flex align-items-center justify-content-center">
+                        <button class="sub-btn">تسجيل الدخول</button>
+                    </div>
+                </form>
+                <form class="regi-form trans" action="">
+                    <div class="email div-parent d-flex align-items-center mb-3">
+                        <input type="text" placeholder="ادخل الأيميل">
+                        <ion-icon class="icon" name="mail-outline"></ion-icon>
+                    </div>
+                    <div class="password div-parent d-flex align-items-center mb-3">
+                        <input type="password" placeholder="ادخل اسم المستخدم">
+                        <ion-icon class="icon "name="person-circle-outline"></ion-icon>
+                    </div>
+                    <div class="password div-parent d-flex align-items-center mb-3">
+                        <input type="password" placeholder="ادخل رقم السري">
+                        <ion-icon class="icon" name="lock-closed-outline"></ion-icon>
+                    </div>
+                    <div class="submit d-flex align-items-center justify-content-center">
+                        <button class="sub-btn">تسجيل</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- End Click On Register -->
+
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
